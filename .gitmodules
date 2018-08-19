@@ -1,0 +1,6 @@
+[submodule "xv6_public"]
+	path = xv6_public
+	url = https://github.com/naoki9911/xv6_public
+[submodule "edk2"]
+	path = edk2
+	url = https://github.com/naoki9911/edk2
