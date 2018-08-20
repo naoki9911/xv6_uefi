@@ -5,7 +5,6 @@ This operating system runs on x86-64 and uefi system.
 ```
 git clone https://github.com/naoki9911/xv6_uefi
 cd xv6_uefi
-git submodule update -i
 make
 ```
 # TODO
