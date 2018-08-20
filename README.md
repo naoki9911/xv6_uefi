@@ -7,6 +7,16 @@ git clone https://github.com/naoki9911/xv6_uefi
 cd xv6_uefi
 make
 ```
+If you have some trouble, try to execute commands line by line in build.sh
+# Packages
+Needed packages are as follows.
+
+```
+qemu
+nasm
+acpica
+```
+
 # TODO
 - console with frame buffer
 - nic device driver
