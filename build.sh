@@ -1,5 +1,5 @@
 #!/bin/bash
-
+OVMF_PATH=Build/OvmfX64/RELEASE_GCC5/FV
 git submodule update -i
 
 if [ ! -e image/EFI/BOOT ]; then
@@ -9,7 +9,7 @@ fi
 cd edk2
 git checkout xv6_uefiloader
 source edksetup.sh
-if [ ! -e Build/OvmfX64 ]; then
+if [ ! -e $OVMF_PATH/OVMF_CODE.fd -o ! -e $OVMF_PATH/OVMF_VARS.fd ]; then
         make -C BaseTools/Source/C
         build -p OvmfPkg/OvmfPkgX64.dsc
 fi
