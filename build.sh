@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [ -e edk2 ]; then
+        git submodule update -i
+fi
+
 if [ -e image/EFI/BOOT ]; then
   mkdir -p image/EFI/BOOT
 fi
