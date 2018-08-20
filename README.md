@@ -1,5 +1,5 @@
 # xv6_uefi
-xv6_uefi is the operation system based on xv6.
+xv6_uefi is the operating system based on xv6.
 This operating system runs on x86-64 and uefi system.
 
 ```
