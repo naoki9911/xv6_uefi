@@ -1,4 +1,4 @@
-BOOT_LOADER = edk2/xv6_bootloader/build/DEBUG_GCC5/X64/loader.efi
+BOOT_LOADER = edk2/xv6_bootloader/build/RELEASE_GCC5/X64/loader.efi
 BOOT_IMAGE_PATH = image/EFI/BOOT
 OVMF_CODE = edk2/Build/OvmfX64/RELEASE_GCC5/FV/OVMF_CODE.fd
 OVMF_VARS = edk2/Build/OvmfX64/RELEASE_GCC5/FV/OVMF_VARS.fd
