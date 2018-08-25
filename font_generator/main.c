@@ -62,7 +62,7 @@ int convert(int index, struct font *font_data){
   }else if(index > 31){
     start_index = 85;
   }else{
-    start_index = 139;
+    start_index = 137;
   }
   index = index%32;
   int start_addr = index*15+2;
