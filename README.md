@@ -18,8 +18,7 @@ acpica
 ```
 
 # TODO
-- console with frame buffer
-- nic device driver
-- tcp/ip protocol stack
-- socket system like BSD socket
+- console with frame buffer - Done
+- nic device driver - Almost Done
+- tcp/ip protocol stack - In Progress
 - HTTP server

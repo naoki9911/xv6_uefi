@@ -23,4 +23,6 @@ debug:
 	-gdb tcp::4321 \
 	-m 2048 \
 	-smp 4 \
-	-monitor stdio
+	-monitor stdio \
+	-net nic,model=e1000 \
+	-net bridge,br=br0
